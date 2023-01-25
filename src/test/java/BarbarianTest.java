@@ -30,7 +30,7 @@ public class BarbarianTest {
 
     @Test
     public void getAttack() {
-        assertEquals(weapon, barbarian.getWeapon());
+        assertEquals(weapon, barbarian.getAttack());
     }
 
     @Test

@@ -4,31 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56c147b7-a817-4858-977e-fc98acc784b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Barbarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dwarf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Fighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IDamageable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Room.java" afterDir="false" />
+    <list default="true" id="56c147b7-a817-4858-977e-fc98acc784b3" name="Changes" comment="Melee users">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cleric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HealingTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MythicalCreature.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Spell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Weapon.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Wizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MonsterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ClericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HealingToolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MythicalCreatureTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/SpellTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WeaponTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WizardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IDamageable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IDamageable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DwarfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +33,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
-        <option value="Enum" />
         <option value="JUnit4 Test Class" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,6 +89,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClericTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DwarvesAndWizards" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClericTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClericTest.canHealWithPotion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DwarvesAndWizards" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClericTest" />
+      <option name="METHOD_NAME" value="canHealWithPotion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HealingToolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DwarvesAndWizards" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HealingToolTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DwarvesAndWizards" />
       <option name="PACKAGE_NAME" value="" />
@@ -107,6 +129,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in DwarvesAndWizards" />
+        <item itemvalue="JUnit.ClericTest.canHealWithPotion" />
+        <item itemvalue="JUnit.ClericTest" />
+        <item itemvalue="JUnit.HealingToolTest" />
         <item itemvalue="JUnit.RoomTest" />
       </list>
     </recent_temporary>
@@ -120,6 +145,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674647311951</updated>
     </task>
+    <task id="LOCAL-00001" summary="Melee users">
+      <created>1674656342765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674656342765</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,5 +165,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Melee users" />
+    <option name="LAST_COMMIT_MESSAGE" value="Melee users" />
   </component>
 </project>

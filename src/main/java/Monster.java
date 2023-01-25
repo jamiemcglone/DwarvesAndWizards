@@ -11,6 +11,10 @@ public class Monster implements IDamageable {
         this.maxHealth = maxHealth;
     }
 
+    public int getMaxHealth() {
+        return this.maxHealth;
+    }
+
     public int getHealth() {
         return this.health;
     }

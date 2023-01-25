@@ -22,7 +22,7 @@ public class DwarfTest {
 
     @Test
     public void getAttack() {
-        assertEquals(Weapon.AXE, dwarf.getWeapon());
+        assertEquals(Weapon.AXE, dwarf.getAttack());
     }
 
     @Test
